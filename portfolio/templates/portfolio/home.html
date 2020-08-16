@@ -6,22 +6,18 @@
 	{% load static %}
 
 	<!-- INTRO BLOCK -->
-	<div class="container-fluid" style="background-color: #eee">
+	<div class="container-fluid shadow" style="background-color: #eee">
 	<div class="container" style="padding: 20px;">
 		<div class="row">
 			<div class="col-sm">
-				<img src="{% static 'portfolio/about.jpg' %}" class="rounded float-left shadow-sm" alt="Profile Image" height=595 width=550>
+				<img src="{% static 'portfolio/about.jpg' %}" class="rounded float-left col-sm" alt="Profile Image">
 			</div>
-			<div class="col-sm ">
+			<div class="col-sm " style='padding-top: 45px' >
 				<div class="jumbotron shadow">
 				  <h1 class="display-4">Aamir Hussain</h1>
 				  <p class="lead">"Learning never stops!" </p>
 				  <hr class="my-4">
 				  <p>I've been always been keen to learn new things, things that intrigue me to a level that i start exploring it. I have never stopped teaching myself new stuff, and in this process i have added a lot of great skills.</p>
-				  <p>I started taking courses on the web for Python and this gave me my ultimate interest which is Data Science, that is when i started pursuing Data Science.
-				      </p>
-
-					<p>I am still in the process of gaining expertise in these skills and i know for a fact that my quest for knowledge will never stop! </p>
 				  <a class="btn btn-danger btn-lg shadow" href="{% static 'portfolio/resume.pdf' %}" role="button" target="_blank">View Resume</a>
 				</div>
 			</div>
